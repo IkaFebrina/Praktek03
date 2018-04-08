@@ -2,25 +2,27 @@ package praktek03;
 public class HelmAksi {
     public static void main(String[] args) {
         Helm Dodo = new Helm();
-        Dodo.Merk="GM";
-        Dodo.Warna="Dark Blue";
-        Dodo.Jenis_Kaca="Kaca Bening";
-        Dodo.Harga=250000;
+        Dodo.setMerk("GM");
+        Dodo.setWarna("Drk Blue");
+        Dodo.setJenis_Kaca("Kaca Bening");
+        Dodo.setHarga(250000);
         
         Helm Dodi = new Helm();
-        Dodi.Merk="KYT";
-        Dodi.Warna="Black";
-        Dodi.Jenis_Kaca="Kaca Gelap";
-        Dodi.Harga=300000;
+        Dodi.setMerk("KYT");
+        Dodi.setMerk("Black");
+        Dodi.setJenis_Kaca("Kaca Gelap");
+        Dodi.setHarga(300000);
         
         Helm Dudu = new Helm();
-        Dudu.Merk ="NKH";
-        Dudu.Warna="Black";
-        Dudu.Jenis_Kaca="Kaca Bening + Kaca Gelap (double)";
-        Dudu.Harga=450000;
+        Dudu.setMerk("NHK");
+        Dudu.setWarna("Black");
+        Dudu.setJenis_Kaca("Kaca Bening + Kaca Gelap (double)");
+        Dudu.setHarga(450000);
         
         Dodo.cetakInfo();
+        System.out.println();
         Dodi.cetakInfo();
-        Dudu.cetakInfo();
+        System.out.println();
+        Dudu.cetakInfo(); 
     }
 }
