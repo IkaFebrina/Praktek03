@@ -23,6 +23,36 @@ public class HelmAksi {
         System.out.println();
         Dodi.cetakInfo();
         System.out.println();
-        Dudu.cetakInfo(); 
+        Dudu.cetakInfo();
+        System.out.println();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(Dodo.getMerk());
+        System.out.print("Warnanya \t: ");
+        System.out.println(Dodo.getWarna());
+        System.out.print("Jenis Kacanya \t: ");
+        System.out.println(Dodo.getJenis_Kaca());
+        System.out.print("Harganya \t: ");
+        System.out.println(Dodo.getHarga());
+        System.out.println();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(Dodi.getMerk());
+        System.out.print("Warnanya \t: ");
+        System.out.println(Dodi.getWarna());
+        System.out.print("Jenis Kacanya \t: ");
+        System.out.println(Dodi.getJenis_Kaca());
+        System.out.print("Harganya \t: ");
+        System.out.println(Dodi.getHarga());
+        System.out.println();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(Dudu.getMerk());
+        System.out.print("Warnanya \t: ");
+        System.out.println(Dudu.getWarna());
+        System.out.print("Jenis Kacanya \t: ");
+        System.out.println(Dudu.getJenis_Kaca());
+        System.out.print("Harganya \t: ");
+        System.out.println(Dudu.getHarga());
     }
 }
