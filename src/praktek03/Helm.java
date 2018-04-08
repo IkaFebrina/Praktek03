@@ -1,9 +1,9 @@
 package praktek03;
 public class Helm {
-    String Merk;
-    String Warna;
-    String Jenis_Kaca;
-    double Harga;
+    private String Merk;
+    private String Warna;
+    private String Jenis_Kaca;
+    private double Harga;
     
     void cetakInfo(){
         System.out.println("Merk \t: "+Merk+"\n"+
