@@ -5,4 +5,14 @@ public class UkuranHelm extends Helm{
     void throttle(){
         System.out.println("WAKWAAAAAW~");
     }
+
+    public String getUkuran() {
+        return Ukuran;
+    }
+
+    public void setUkuran(String Ukuran) {
+        this.Ukuran = Ukuran;
+    }
+    
+    
 }
