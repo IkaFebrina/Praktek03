@@ -54,5 +54,16 @@ public class HelmAksi {
         System.out.println(Dudu.getJenis_Kaca());
         System.out.print("Harganya \t: ");
         System.out.println(Dudu.getHarga());
+        System.out.println();
+        
+        UkuranHelm Didi = new UkuranHelm();
+        Didi.setMerk("Bogo");
+        Didi.setWarna("Pink");
+        Didi.setJenis_Kaca("Kaca Gelap");
+        Didi.setHarga(300000);
+        Didi.setUkuran("M");
+        Didi.cetakInfo();
+        System.out.println("Ukuran \t: "+Didi.getUkuran());
+        Didi.throttle();
     }
 }
